@@ -5,7 +5,7 @@ Studiju kursu Datormācība pamatkurss elektroniskā klāde
 2 nodarbības komandas;  
 CTRL+ALT+T - termināls;  
 TAB - teksta papildinājums (fire+tab = firefox);  
-CTRL+SHIFT+T - jauna tabula terminālā;  
+CTRL+SHIFT+T - jauna tabu terminālā;  
 CTRL+L - pacelt tekstu uz augšu/notīrīt ekrānu;  
 Bultiņas uz augšu un uz leju(↑↓)- komandas vēsture;  
 man - aprakstījums;  

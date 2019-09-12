@@ -14,9 +14,9 @@ uname -a - Linux aprakstījums;
 whoami - kas es esmu;  
 pwd - kur es atrodos;  
 ls - kas ir pieejams;  
-ls -l - detalizēts ls;  
-ls -a - detalizēts ls;  
-la -al - detalizēts ls;  
+ls -l - detalizēts ls; PIEMĒRAM (drwxr-xr-x 2 user user 4096 Aug 26 18:29  Desktop)  
+ls -a - detalizēts ls; PIEMĒRAM (.                 .gnupg                 .selected_editor)    
+la -al - detalizēts ls; PIEMĒRAM (drwxrwxr-x  3 user user 4096 Feb 20  2019  .subversion)  
 cd / cd home/user / cd ~ - pāriet uz HOME directory;  
 cd . - palikt šajā direktorijā;  
 cd .. - iziet no apakšmapes;  

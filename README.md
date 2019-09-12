@@ -7,7 +7,7 @@ CTRL+ALT+T - termināls;
 TAB - teksta papildinājums (fire+tab = firefox);  
 CTRL+SHIFT+T - jauna tabula terminālā;  
 CTRL+L - pacelt tekstu uz augšu/notīrīt ekrānu;  
-Bultiņas uz augšu un uz leju - komandas vēsture;  
+Bultiņas uz augšu un uz leju(↑↓)- komandas vēsture;  
 man - aprakstījums;  
 echo $0 - kas interpretē;  
 uname -a - Linux aprakstījums;  

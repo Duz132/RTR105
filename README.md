@@ -37,3 +37,8 @@ ls -l Documents/ - tā kā ls -l tikai mapē documents;
 rm -fr ManaMape - izdzēst mapi ManaMape jā tajā ir faili;  
 echo $PATH - visi pathi;  
 chmod - nomainīt faila preferences;  
+chmod 700 fails - execute preferences
+git clone "link" - upload repositoriju
+git config - identificē lietotāju
+gcc file.c - gcc compiler
+./name of file - execute failu

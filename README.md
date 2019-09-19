@@ -42,3 +42,4 @@ git clone "link" - upload repositoriju
 git config - identificē lietotāju
 gcc file.c - gcc compiler
 ./name of file - execute failu
+./git-upload - uzlade visu jauno uz github

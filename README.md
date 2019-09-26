@@ -49,8 +49,8 @@ gcc file.c - gcc compiler;
 \r - kursors uz rindas sākumu;  
 \t - tabulācija;  
 \a - pīkstiens;  
-\'- attēlot apostrofu;  
-\"- attēlot pēdiņas;  
-\? - attēlot jautājuma zīmi;  
-\\ - attēlot apgriezto slīpsvītru;  
+\'- attēlot apostrofu (pirms ir slīpa svītra \ kā \n);  
+\"- attēlot pēdiņas (pirms ir slīpa svītra \ kā \n);  
+\? - attēlot jautājuma zīmi (pirms ir slīpa svītra \ kā \n);  
+\\ - attēlot apgriezto slīpsvītru (pirms ir slīpa svītra \ kā \n);  
 

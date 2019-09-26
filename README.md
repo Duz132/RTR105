@@ -41,5 +41,16 @@ chmod 700 fails - execute preferences
 git clone "link" - upload repositoriju
 git config - identificē lietotāju
 gcc file.c - gcc compiler
-./name of file - execute failu
-./git-upload - uzlade visu jauno uz github
+./name of file - execute failu  
+./git-upload - uzlade visu jauno uz github  
+
+5 nodarbība
+\n - pārnesums jaunā rindā
+\r - kursors uz rindas sākumu
+\t - tabulācija  
+\a - pīkstiens  
+\'- attēlot apostrofu  
+\" - attēlot pēdiņas  
+\? - attēlot jautājuma zīmi  
+\\ - attēlot apgriezto slīpsvītru  
+

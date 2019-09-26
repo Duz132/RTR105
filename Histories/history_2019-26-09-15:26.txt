@@ -1,0 +1,134 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  sdsdf
+    4  git clone https://github.com/Duz123/RTR_105
+    5  git clone https://github.com/Duz123/RTR105
+    6  git clone https://github.com/Duz132/RTR105
+    7  ls
+    8  cd RTR105/
+    9  ls
+   10  cd Darbi/
+   11  l
+   12  ls
+   13  cd ..
+   14  ls
+   15  mkdir Histories
+   16  ls
+   17  mv history_20190912.txt Histories
+   18  ls
+   19  mv history_20190912b.txt Histories
+   20  mv history_20191909.txt Histories
+   21  ls
+   22  cd Histories/
+   23  ls
+   24  cd ..
+   25  cd Darbi/
+   26  ls
+   27  cd ..
+   28  cat README.md 
+   29  cd Darbi/
+   30  ls
+   31  ./hello_test 
+   32  do you want to come to me?
+   33  do
+   34  boots and cats
+   35  apt
+   36  ls
+   37  rm hello_test
+   38  ls
+   39  nano test_sizeof.c
+   40  ls
+   41  gcc test_sizeof.c 
+   42  ls
+   43  ./a.out 
+   44  rm a.out 
+   45  nano test_text_format.c
+   46  gcc test_text_format.c 
+   47  ls
+   48  ./a.out 
+   49  nano test_text_format.c
+   50  gcc test_text_format.c 
+   51  ./a.out 
+   52  nano test_text_format.c
+   53  gcc test_text_format.c 
+   54  ./a.out 
+   55  nano test_text_format.c
+   56  gcc test_text_format.c 
+   57  ./a.out 
+   58  nano test_text_format.c
+   59  gcc test_text_format.c 
+   60  ./a.out 
+   61  nano test_text_format.c
+   62  gcc test_text_format.c 
+   63  ./a.out 
+   64  nano test_text_format.c
+   65  gcc test_text_format.c 
+   66  ./a.out 
+   67  nano test_text_format.c
+   68  gcc test_text_format.c 
+   69  ./a.out 
+   70  nano test_text_format.c
+   71  gcc test_text_format.c 
+   72  ./a.out 
+   73  nano test_text_format.c
+   74  ./a.out 
+   75  rm a.out 
+   76  ls
+   77  nano test_funkcijas.c
+   78  gcc test_funkcijas.c 
+   79  nano test_funkcijas.c
+   80  gcc test_funkcijas.c 
+   81  nano test_funkcijas.c
+   82  gcc test_funkcijas.c 
+   83  nano test_funkcijas.c
+   84  gcc test_funkcijas.c 
+   85  nano test_funkcijas.c
+   86  gcc test_funkcijas.c 
+   87  nano test_funkcijas.c
+   88  gcc test_funkcijas.c 
+   89  nano test_funkcijas.c
+   90  gcc test_funkcijas.c 
+   91  ./a.out 
+   92  nano test_funkcijas.c
+   93  nano test_datu_tipi.c
+   94  gcc test_datu_tipi.c 
+   95  nano test_datu_tipi.c
+   96  gcc test_datu_tipi.c 
+   97  nano test_datu_tipi.c
+   98  gcc test_datu_tipi.c 
+   99  ./a.out 
+  100  nano test_datu_tipi.c
+  101  nano test_funkcijas.c
+  102  nano test_datu_tipi.c
+  103  gcc test_datu_tipi.c 
+  104  ./a.out 
+  105  nano test_datu_tipi.c
+  106  nano test_funkcijas.c
+  107  gcc test_funkcijas.c
+  108  ./a.out 
+  109  nano test_funkcijas.c
+  110  gcc test_funkcijas.c
+  111  ./a.out 
+  112  nano test_funkcijas.c
+  113  gcc test_funkcijas.c
+  114  ./a.out 
+  115  nano test_funkcijas.c
+  116  y
+  117  skrrrrrrrr
+  118  nano test_funkcijas.c
+  119  nano test_datu_tipi_2.c
+  120  gcc test_datu_tipi_2.c
+  121  nano test_datu_tipi_2.c
+  122  gcc test_datu_tipi_2.c
+  123  nano test_datu_tipi_2.c
+  124  cd ..
+  125  ls -l
+  126  cd Darbi/
+  127  ls -l
+  128  rm a.out 
+  129  ls
+  130  cd ..
+  131  ls
+  132  ./git-upload 
+  133* ./git-upload 2019-26-09-15:26
+  134  history > history_2019-26-09-15:26.txt

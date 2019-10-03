@@ -54,3 +54,6 @@ gcc file.c - gcc compiler;
 \? - attēlot jautājuma zīmi (pirms ir slīpa svītra \ kā \n);  
 \\ - attēlot apgriezto slīpsvītru (pirms ir slīpa svītra \ kā \n);  
 
+6 nodarbība
+<< - palielināt par 1 bitu = ekvivalenta reizināšanai uz 2;  
+1 bite pa kreisi - reiz. uz 2; 2 bit - 4; 3 bit - 8 ...;  

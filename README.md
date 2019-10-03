@@ -57,3 +57,4 @@ gcc file.c - gcc compiler;
 6 nodarbība
 << - palielināt par 1 bitu = ekvivalenta reizināšanai uz 2;  
 1 bite pa kreisi - reiz. uz 2; 2 bit - 4; 3 bit - 8 ...;  
+https://en.cppreference.com/w/c/language/operator_precedence !!!

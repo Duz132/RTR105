@@ -54,7 +54,14 @@ NANO KOMANDAS
 \? - attēlot jautājuma zīmi (pirms ir slīpa svītra \ kā \n);  
 \\ - attēlot apgriezto slīpsvītru (pirms ir slīpa svītra \ kā \n);  
 
-6 nodarbība
-<< - palielināt par 1 bitu = ekvivalenta reizināšanai uz 2;  
+OPERAACIJAS (https://en.cppreference.com/w/c/language/operator_precedence)  
+(*) << - palielināt par 1 bitu (ekvivalenta reizināšanai uz 2);  
 1 bite pa kreisi - reiz. uz 2; 2 bit - 4; 3 bit - 8 ...;  
-https://en.cppreference.com/w/c/language/operator_precedence !!!
+(*) == - equal (paarbaude =);  
+(*) != - not equal(paarbaude not =);  
+(*) % - atlikums no daliishanas;  
+(*) & - logic AND logic AND (if a and b = 1 then 1 else 0);  
+(*) | - logic OR (ja kaut viens ir 1 tad 1);  
+(*) ~ - logic INVERSIJA (inversija 0>>1 1>>0);  
+(*) ^ - logic OR exception (ja tikai viens ir 1 tad 1 (1 un 0 >> 1; 1 un 1>>0));  
+(*) +,-,*,/,<,<=,>,>= - kaa parastajaa matemaatikaa;  

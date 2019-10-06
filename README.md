@@ -2,7 +2,7 @@
 Studiju kursu Datormācība pamatkurss elektroniskā klāde
 
 
-2 nodarbības komandas;  
+TERMINAALA KOMANDAS  
 CTRL+ALT+T - termināls;  
 TAB - teksta papildinājums (fire+tab = firefox);  
 CTRL+SHIFT+T - jauna tabu terminālā;  
@@ -42,9 +42,9 @@ git clone "link" - upload repositoriju;
 git config - identificē lietotāju;  
 gcc file.c - gcc compiler;  
 ./name of file - execute failu;  
-./git-upload - uzlade visu jauno uz github;  
+./git-upload datums - uzlade visu jauno uz github;  
 
-5 nodarbība  
+NANO KOMANDAS  
 \n - pārnesums jaunā rindā;  
 \r - kursors uz rindas sākumu;  
 \t - tabulācija;  

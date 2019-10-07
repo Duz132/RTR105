@@ -60,8 +60,11 @@ OPERAACIJAS (https://en.cppreference.com/w/c/language/operator_precedence)
 (*) == - equal (paarbaude =);  
 (*) != - not equal(paarbaude not =);  
 (*) % - atlikums no daliishanas;  
-(*) & - logic AND logic AND (if a and b = 1 then 1 else 0);  
+(*) & - logic AND (if a and b = 1 then 1 else 0);  
 (*) | - logic OR (ja kaut viens ir 1 tad 1);  
 (*) ~ - logic INVERSIJA (inversija 0>>1 1>>0);  
 (*) ^ - logic OR exception (ja tikai viens ir 1 tad 1 (1 un 0 >> 1; 1 un 1>>0));  
 (*) +,-,*,/,<,<=,>,>= - kaa parastajaa matemaatikaa;  
+(*) && - logic AND (if a and b <> 0 then 1 else 0);  
+(*) || - logic OR (ja kaut viens elements <> 0 tad 1);  
+

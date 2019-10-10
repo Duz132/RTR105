@@ -2,7 +2,7 @@
 Studiju kursu Datormācība pamatkurss elektroniskā klāde
 
 
-TERMINAALA KOMANDAS  
+TERMINĀLA KOMANDAS  
 CTRL+ALT+T - termināls;  
 TAB - teksta papildinājums (fire+tab = firefox);  
 CTRL+SHIFT+T - jauna tabu terminālā;  
@@ -54,17 +54,31 @@ NANO KOMANDAS
 \? - attēlot jautājuma zīmi (pirms ir slīpa svītra \ kā \n);  
 \\ - attēlot apgriezto slīpsvītru (pirms ir slīpa svītra \ kā \n);  
 
-OPERAACIJAS (https://en.cppreference.com/w/c/language/operator_precedence)  
+OPERĀCIJAS (https://en.cppreference.com/w/c/language/operator_precedence)  
 (*) << - palielināt par 1 bitu (ekvivalenta reizināšanai uz 2);  
 1 bite pa kreisi - reiz. uz 2; 2 bit - 4; 3 bit - 8 ...;  
-(*) == - equal (paarbaude =);  
-(*) != - not equal(paarbaude not =);  
-(*) % - atlikums no daliishanas;  
+(*) == - equal (pārbaude =);  
+(*) != - not equal(pārbaude not =);  
+(*) % - atlikums no dalīšanas;  
 (*) & - logic AND (if a and b = 1 then 1 else 0);  
 (*) | - logic OR (ja kaut viens ir 1 tad 1);  
 (*) ~ - logic INVERSIJA (inversija 0>>1 1>>0);  
 (*) ^ - logic OR exception (ja tikai viens ir 1 tad 1 (1 un 0 >> 1; 1 un 1>>0));  
-(*) +,-,*,/,<,<=,>,>= - kaa parastajaa matemaatikaa;  
+(*) +,-,*,/,<,<=,>,>= - kš parastajā matemātikā;  
 (*) && - logic AND (if a and b <> 0 then 1 else 0);  
 (*) || - logic OR (ja kaut viens elements <> 0 tad 1);  
-
+(*) printf("...",...); - uzrakstīt;  
+(*) scanf("%d",...); - noskanēt ievadīto skaitli, kuru ievada lietotājs;  
+(*) if (...)  
+{  
+...;  
+}  
+else  
+{  
+...;  
+}  
+(*) while(...(pārbaude ja sk ir 0))  
+{  
+...  
+}  
+(*) for(...;nosacījums/saliktais nosacījums/;...)

@@ -1,0 +1,243 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Duz132/RTR105
+    4  ls
+    5  cd RTR105/
+    6  ls
+    7  cd Darbi/
+    8  ls
+    9  mkdir IfOperator
+   10  ls
+   11  rmdir IfOperator/
+   12  ls
+   13  mkdir If_Operator
+   14  cd If_Operator/
+   15  nano if_test.c
+   16  ls
+   17  gcc if_test.c 
+   18  ./a.out 
+   19  ls
+   20  nano if_test.c
+   21  gcc if_test.c 
+   22  ./a.out 
+   23  cd ..
+   24  nano README.md 
+   25  ls
+   26  cd Darbi/
+   27  cd If_Operator/
+   28  ls
+   29  nano if_test.c 
+   30  gcc if_test.c 
+   31  nano if_test.c 
+   32  gcc if_test.c 
+   33  nano if_test.c 
+   34  gcc if_test.c 
+   35  ./a.out 
+   36  nano if_test.c 
+   37  gcc if_test.c 
+   38  ./a.out 
+   39  nano if_test.c 
+   40  ./a.out 
+   41  nano if_test.c 
+   42  gcc if_test.c 
+   43  ./a.out 
+   44  nano if_test.c 
+   45  ./a.out 
+   46  nano if_test.c 
+   47  gcc if_test.c 
+   48  ./a.out 
+   49  nano if_test.c 
+   50  ls
+   51  gcc if_test.c 
+   52  ./a.out 
+   53  nano if_test.c 
+   54  gcc if_test.c 
+   55  ./a.out 
+   56  nano if_test.c 
+   57  gcc if_test.c 
+   58  ./a.out 
+   59  nano if_test.c 
+   60  gcc if_test.c 
+   61  ./a.out 
+   62  nano if_test.c 
+   63  gcc if_test.c 
+   64  ./a.out 
+   65  nano if_test.c 
+   66  gcc if_test.c 
+   67  ./a.out 
+   68  nano if_test.c 
+   69  ./a.out 
+   70  nano if_test.c 
+   71  gcc if_test.c 
+   72  ./a.out 
+   73  nano if_test.c 
+   74  cp if_test.c if_test_2.c
+   75  nano if_test_2
+   76  ls
+   77  nano if_test_2.c
+   78  gcc if_test_2.c
+   79  nano if_test_2.c
+   80  gcc if_test_2.c
+   81  nano if_test_2.c
+   82  gcc if_test_2.c
+   83  ./a.out 
+   84  nano if_test_2.c
+   85  gcc if_test_2.c
+   86  ./a.out 
+   87  nano if_test.c
+   88  gcc if_test_2.c
+   89  gcc if_test.c
+   90  ./a.out 
+   91  nano if_test_2.c
+   92  gcc if_test_2.c
+   93  ./a.out 
+   94  nano if_test_2.c
+   95  ls
+   96  nano if_test_para_nepara_.c 
+   97  rm if_test_para_nepara_.c
+   98  ls
+   99  nano if_test_2.c
+  100  gcc if_test_2.c
+  101  nano if_test_2.c
+  102  gcc if_test_2.c
+  103  nano if_test_2.c
+  104  gcc if_test_2.c
+  105  nano if_test_2.c
+  106  gcc if_test_2.c
+  107  nano if_test_2.c
+  108  gcc if_test_2.c
+  109  ./a.out 
+  110  cp if_test_2.c if_test_3.c
+  111  nano if_test_3.c
+  112  gcc if_test_3.c
+  113  ./a.out 
+  114  nano if_test_3.c
+  115  gcc if_test_3.c
+  116  ./a.out 
+  117  nano if_test_3.c
+  118  gcc if_test_3.c
+  119  nano if_test_3.c
+  120  gcc if_test_3.c
+  121  ./a.out 
+  122  2
+  123  nano if_test_3.c
+  124  gcc if_test_3.c
+  125  ./a.out 
+  126  nano if_test_3.c
+  127  gcc if_test_3.c
+  128  ./a.out 
+  129  nano if_test_3.c
+  130  gcc if_test_3.c
+  131  ./a.out 
+  132  2
+  133  nano if_test_3.c
+  134  cp if_test.c while_test.c
+  135  nano while_test.c 
+  136  gcc while_test.c 
+  137  nano while_test.c 
+  138  gcc while_test.c 
+  139  ./a.
+  140  ls
+  141  gcc while_test.c 
+  142  nano while_test.c 
+  143  gcc while_test.c 
+  144  nano while_test.c 
+  145  gcc while_test.c 
+  146  nano while_test.c 
+  147  gcc while_test.c 
+  148  ./a.out 
+  149  ls
+  150  cd RTR105/
+  151  cd Darbi/
+  152  ls
+  153  cd If_Operator/
+  154  cd
+  155  ls
+  156  cd RTR105/
+  157  cd Darbi/
+  158  cd If_Operator/
+  159  ls
+  160  nano while_test.c 
+  161  gcc while_test.c 
+  162  ./a.out 
+  163  nano while_test.c 
+  164  cd ..
+  165  ls
+  166  nano README.md 
+  167  cd Darbi/
+  168  cd If_Operator/
+  169  ls
+  170  nano while_test.c 
+  171  cp while_test.c while_test_2.c 
+  172  nano while_test_2.c
+  173  gcc while_test_2.c 
+  174  ./a.out 
+  175  2
+  176  nano while_test_2.c
+  177  gcc while_test_2.c 
+  178  ./a.out 
+  179  cd ..
+  180  nano README.md 
+  181  cd Darbi/
+  182  cd If_Operator/
+  183  cp while_test_2.c while_test_3.c
+  184  nano while_test_3.c 
+  185  cp while_test_2.c for_test.c
+  186  rm while_test_3.c 
+  187  nano for_test.c 
+  188  gcc for_test.c 
+  189  ./a.out 
+  190  nano for_test.c 
+  191  gcc for_test.c 
+  192  ./a.out 
+  193  2
+  194  nano for_test.c 
+  195  gcc for_test.c 
+  196  ./a.out 
+  197  2
+  198  nano for_test.c 
+  199  gcc for_test.c 
+  200  ./a.out 
+  201  2
+  202  nano for_test.c 
+  203  gcc for_test.c 
+  204  ./a.out 
+  205  cp for_test.c for_test_2.c
+  206  nano for_test_2
+  207  nano for_test_2.c
+  208  gcc for_test_2.c 
+  209  ./a.out 
+  210  2
+  211  nano for_test_2.c
+  212  gcc for_test_2.c 
+  213  ./a.out 
+  214  nano for_test_2.c
+  215  gcc for_test_2.c 
+  216  nano for_test_2.c
+  217  gcc for_test_2.c 
+  218  nano for_test_2.c
+  219  gcc for_test_2.c 
+  220  ./a.out 
+  221  nano for_test_2.c
+  222  gcc for_test_2.c 
+  223  nano for_test_2.c
+  224  gcc for_test_2.c 
+  225  ./a.out 
+  226  nano for_test_2.c
+  227  gcc for_test_2.c 
+  228  ./a.out 
+  229  nano for_test_2.c
+  230  gcc for_test_2.c 
+  231  ./a.out 
+  232  2
+  233  nano for_test_2.c
+  234  gcc for_test_2.c 
+  235  ./a.out 
+  236  ls
+  237  rm a.out 
+  238  ls
+  239  cd ..
+  240  ls
+  241  cd ..
+  242  ls
+  243  history > history_2019_10_10_15:56.txt

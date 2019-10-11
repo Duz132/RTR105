@@ -68,7 +68,7 @@ OPERĀCIJAS (https://en.cppreference.com/w/c/language/operator_precedence)
 (*) && - logic AND (if a and b <> 0 then 1 else 0);  
 (*) || - logic OR (ja kaut viens elements <> 0 tad 1);  
 (*) printf("...",...); - uzrakstīt;  
-(*) scanf("%d",...); - noskanēt ievadīto skaitli, kuru ievada lietotājs;  
+(*) scanf("%d",&...); - noskanēt ievadīto skaitli, kuru ievada lietotājs;  
 (*) if (...)  
 {  
 ...;  

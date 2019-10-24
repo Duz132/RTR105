@@ -82,3 +82,7 @@ else
 ...  
 }  
 (*) for(...;nosacījums/saliktais nosacījums/;...)
+
+(*) #include<math.h> - math directoriju
+(*) fabs() - modulis (no math.h)
+(*) g++ file.c - jauns kompilators

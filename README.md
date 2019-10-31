@@ -81,8 +81,9 @@ else
 {  
 ...  
 }  
-(*) for(...;nosacījums/saliktais nosacījums/;...)
+(*) for(...;nosacījums/saliktais nosacījums/;...)  
 
-(*) #include<math.h> - math directoriju
-(*) fabs() - modulis (no math.h)
-(*) g++ file.c - jauns kompilators
+(*) #include<math.h> - math directoriju  
+(*) fabs() - modulis (no math.h)  
+(*) g++ file.c - jauns kompilators  
+(*) cc gen.c bib.c - kompilācija prog gen.c ar palīgprog bib.c  

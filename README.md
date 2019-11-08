@@ -87,3 +87,11 @@ else
 (*) fabs() - modulis (no math.h)  
 (*) g++ file.c - jauns kompilators  
 (*) cc gen.c bib.c - kompilācija prog gen.c ar palīgprog bib.c  
+(*) EOF - END OF FILE NOT STRING  
+(*) ' ' - atstarpe string  
+(*) '\0' - END OF STRING  
+(*) FILE *fptr - mainiiga fptr, kura straadaas ar failu  
+(*) fptr=fopen("test.txt","w"); - atvert failu test/txt FOR WRITE("w") OR READ ("r")  
+(*) fprintf; fscanf - file print and scan  
+(*) fclose(fptr) - aizveert failu  
+(*) scanf("%[^\n]", &teikums) - scaneet visu string "teikums" ar atstarpem  

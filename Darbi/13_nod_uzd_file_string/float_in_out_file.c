@@ -3,21 +3,17 @@
 int main()
 {
 float sk1, sk2, sk3, sk4, sk5, sk6, sk7, sk8, sk9, sk10;
-char test[100];
 FILE *fptr;
 fptr=fopen("float_test.txt","w");
 
 printf("Cien. liet., uzraksti luudzu 10 reaalus skaitlus - "); //PIEMERS: 12.321 45.345 32.34 45.763 64.233 87.76 56.4 34.56 24.567 82.664
-//scanf("%f%f%f%f%f%f%f%f%f%f", &sk1, &sk2, &sk3, &sk4, &sk5, &sk6, &sk7, &sk8, &sk9, &sk10);
-scanf("%[^\n]", &test);
+scanf("%f%f%f%f%f%f%f%f%f%f", &sk1, &sk2, &sk3, &sk4, &sk5, &sk6, &sk7, &sk8, &sk9, &sk10);
 fprintf(fptr,"%f   %f\n",sk1, sk2);
 fprintf(fptr,"%f   %f\n",sk3, sk4);
 fprintf(fptr,"%f   %f\n",sk5, sk6);
 fprintf(fptr,"%f   %f\n",sk7, sk8);
 fprintf(fptr,"%f   %f\n",sk9, sk10);
 
-printf("TESTS\n");
-printf("%s\n",test);
 fclose(fptr);
 
 fptr=fopen("float_test.txt","r");

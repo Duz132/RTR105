@@ -2,7 +2,7 @@
 #include<math.h>
 
 void main(){
- float a=0,b=2*M_PI,x,delta_x=1.e-2;//0.01
+ float a=0,b=2*M_PI,x,delta_x=1.e-2;//0.001
  printf("\tx\t\te^-x\t\t(e^-x)\'\n");
  x = a;
  while(x<b){

@@ -4,20 +4,23 @@
 
 int main()
 {
- double x=2.05,y,a,S;
- int k,i=0;
+ double x,y,a,S;
+ int k=0;
+
+ printf("Cien. liet., ievadi lūdzu x (piem. - 2.05) - ");
+ scanf("%lf",&x);
 
  y = sin(x);
- printf("y=sin(2.05)=%.2f\n",sin(x));
+ printf("\ny=sin(2.05)=%.2f\n",sin(x));
  printf("%.2f\t%.2f\n",x,y);
- a = pow(-1,i)*pow(x,2*i+1)/(1.);
+ a = pow(-1,k)*pow(x,2*k+1)/(1.);
  S = a;
- printf("%.2f\t%.2f\t%.2f\n",x,a,S);
+ printf("%.2f\t%8.2f\t%8.2f\n",x,a,S);
 
- for(k=1;k<=3;k++)
- {
+ while(k<10){
+  k++;
   a = a * (-1) *x*x / ((2*k)*(2*k+1));
   S += a;
-  printf("%.2f\t%.2f\t%.2f\n",x,a,S);
+  printf("%.2f\t%8.2f\t%8.2f\n",x,a,S);
  }
 }

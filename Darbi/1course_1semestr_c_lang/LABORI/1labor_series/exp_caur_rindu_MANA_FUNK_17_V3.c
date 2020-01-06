@@ -1,4 +1,3 @@
-// a0, a1, a2, a3 -> a
 #include<stdio.h>
 #include<math.h>
 

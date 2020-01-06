@@ -3,20 +3,24 @@
 
 int main()
 {
- double x=2.05,y,a,S;
- int k,i=0;
+ double x,y,a,S;
+ int k=0;
 
+ printf("Cien. liet., lūdzu ievadi x (piem. - 2.05) - ");
+ scanf("%lf",&x);
  y = exp(-x);
- printf("y=exp(-2.05)=%.2f\n",exp(-x));
- printf("%.2f\t%.2f\n",x,y);
- a = pow(-1,i)*pow(x,i)/(1.);
+ printf("y=exp(-%.8lf)=%.8f\n",x,exp(-x));
+ printf("%.8f\t%.8f\n",x,y);
+ printf("x\t\ta\t\tS\n");
+ a = pow(-1,k)*pow(x,k)/(1.);
  S = a;
- printf("%.2f\t%.2f\t%.2f\n",x,a,S);
+ printf("%.8f\t%.8f\t%.8f\n",x,a,S);
 
- for(k=1;k<=3;k++)
- {
-  a = a * (-1) *x*x / ((2*k)*k);
+ while(k<15){
+  k++;
+ // a = a * (-1) *x*x / ((2*k)*k);
+  a = a * (pow(-1,k) * x) / (k * pow(-1,k-1));
   S += a;
-  printf("%.2f\t%.2f\t%.2f\n",x,a,S);
+  printf("%.8f\t%.8f\t%.8f\n",x,a,S);
  }
 }

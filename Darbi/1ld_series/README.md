@@ -1,6 +1,6 @@
-# Laboratory work Nr.1. - Taylor series - report
+# Laboratorijas darbs Nr.1. - Taylor series - atskaite
 
-## Theory
+## Teorija
 Izmantojot manas funkcijas exp(-x) Teilora rindas un rekurences izteiksmes, es uzrakstīju programmu, kura skaita funkcijas vērtību, kuru ievada lietotājs.
 Teilora rindas izteiksme:
             1000
@@ -20,7 +20,7 @@ R = -------------------
          k  *  (-1)
 Izteiksmes ir slikti redzami, tāpēc zemāk ir bilde ar izteiksmēm.
 
-### Code
+### Kods
 ```
 #include<stdio.h>
 #include<math.h>
@@ -50,7 +50,7 @@ int main()
 ```
 Skaitam "a" izmantojot Teilora rindas izteiksmi un pēc tam ciklā izmantojam rekurences izteiksmi.
 
-### Result
+### Rezultāts
 ```
 Cien. liet., lūdzu ievadi x (piem. - 2.05) - 2.05
 y=exp(-2.05000000)=0.12873490
@@ -75,7 +75,7 @@ x		a		S
 
 ```
 
-### Analysis
+### Analīze
 Pēc dažām iterācijam, beigās trešajā kolonnā mēs redzam funkcijas vērtību punktā 2.05.
 
 ### Manas funkcijas grafiks

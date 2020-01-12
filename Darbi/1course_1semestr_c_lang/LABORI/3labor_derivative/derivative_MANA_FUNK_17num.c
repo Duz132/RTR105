@@ -16,7 +16,7 @@ void main(){
  fprintf(file,"\tx\t\te^-x\t\t(e^-x)\'\n");
  x = a;
  while(x<b){
-  fprintf(file,"%10.10f\t%10.10f\t%10.10f\n",x,exp(-x),/*-exp(-x));*/(-exp(-x+delta_x)+exp(-x))/delta_x);
+  fprintf(file,"%.10f\t%.10f\t%.10f\n",x,exp(-x),/*-exp(-x));*/(-exp(-x+delta_x)+exp(-x))/delta_x);
   x += delta_x;
  }
 }

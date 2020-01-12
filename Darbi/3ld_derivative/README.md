@@ -43,13 +43,10 @@ PIEMĒRS a=0, b=6.283185, precizitāte=0.0001!
 0.0001
 TEST a - 0.000000, b - 6.283185, delta_x - 0.000100
 
-FAILĀ
-
-
 ```
 
 ### Analīze
-
+Rezultātā mēs redzam, ka funkcijas grafiki gandrīz neatšķirās.
 
 ### Manas funkcijas grafiks
 ![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)

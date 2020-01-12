@@ -18,7 +18,6 @@ int main()
 
  while(k<15){
   k++;
- // a = a * (-1) *x*x / ((2*k)*k);
   a = a * (pow(-1,k) * x) / (k * pow(-1,k-1));
   S += a;
   printf("%.8f\t%.8f\t%.8f\n",x,a,S);

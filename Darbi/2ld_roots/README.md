@@ -27,6 +27,7 @@ int main()
  if(funkca*funkcb>0){
   printf("Intervālā [%2f:%2f] exp(-x) funkcijas ",a,b);
   printf("sakņu nav (vai tājā ir pāru sakņu skaits)\n");
+  printf("Iterācijas nebija\n");
   return 1;
   }
 
@@ -64,6 +65,7 @@ a = 0.010000
 b = 4.712389
 delta_x = 0.000010
 Intervālā [0.010000:4.712389] exp(-x) funkcijas sakņu nav (vai tājā ir pāru sakņu skaits)
+Iterācijas nebija
 
 ```
 

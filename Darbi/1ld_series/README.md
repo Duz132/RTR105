@@ -18,6 +18,7 @@ Rekurences izteiksme:
 R = -------------------
                    k-1
          k  *  (-1)
+Izteiksmes ir slikti redzami, tāpēc zemāk ir bilde ar izteiksmēm.
 
 ### Code
 ```
@@ -79,4 +80,4 @@ Pēc dažām iterācijam, beigās trešajā kolonnā mēs redzam funkcijas vērt
 
 ### Manas funkcijas grafiks
 ![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)
-![Teilora un rekurences izteiksmes](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)
+![Teilora un rekurences izteiksmes](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/Teilora_Rekurences_Izt.png)

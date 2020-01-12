@@ -1,15 +1,23 @@
 # Laboratory work Nr.1. - Taylor series - report
 
 ## Theory
-??????????? 500
-????? ????? -----
-????? ????? \????????????????? k
-????? ????? ? \?????????? (-1)
-f(x) =?????? |????? --------------------
-??????? ????? /???? ? ????? k!
-????? ????? /
-????? ????? ------
-???????????? k=0
+Izmantojot manas funkcijas exp(-x) Teilora rindas un rekurences izteiksmes, es uzrakstīju programmu, kura skaita funkcijas vērtību, kuru ievada lietotājs.
+Teilora rindas izteiksme:
+            1000
+            -----
+            \               k     k
+              \         (-1)  *  x
+f(x) =       |      --------------------
+              /             k!
+            /
+            ------
+             k=0
+Rekurences izteiksme:
+            k
+        (-1)  *  x
+R = -------------------
+                   k-1
+         k  *  (-1)
 
 ### Code
 ```
@@ -39,7 +47,7 @@ int main()
  }
 }
 ```
-Comments about code  
+Skaitam "a" izmantojot Teilora rindas izteiksmi un pēc tam ciklā izmantojam rekurences izteiksmi.
 
 ### Result
 ```
@@ -67,8 +75,8 @@ x		a		S
 ```
 
 ### Analysis
-Comments about results  
+Pēc dažām iterācijam, beigās trešajā kolonnā mēs redzam funkcijas vērtību punktā 2.05.
 
 ### Manas funkcijas grafiks
-![Bildes apraksts]https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png
+![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)
 

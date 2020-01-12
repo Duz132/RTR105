@@ -18,7 +18,7 @@ Rekurences izteiksme:
 R = -------------------
                    k-1
          k  *  (-1)
-Izteiksmes ir slikti redzami, tāpēc zemāk ir bilde ar izteiksmēm.
+Izteiksmes ir slikti redzamas, tāpēc zemāk ir bilde ar izteiksmēm.
 
 ### Kods
 ```

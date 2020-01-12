@@ -76,7 +76,7 @@ x		a		S
 ```
 
 ### Analīze
-Pēc dažām iterācijam, beigās trešajā kolonnā mēs redzam funkcijas vērtību punktā 2.05.
+Pēc dažām saskaitīšanas solīm, beigās trešajā kolonnā mēs redzam funkcijas vērtību punktā 2.05.
 
 ### Manas funkcijas grafiks
 ![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)

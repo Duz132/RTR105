@@ -20,6 +20,7 @@ int main()
  if(funkca*funkcb>0){
   printf("Intervālā [%2f:%2f] exp(-x) funkcijas ",a,b);
   printf("sakņu nav (vai tājā ir pāru sakņu skaits)\n");
+  printf("Iterācijas nebija\n");
   return 1;
   }
 
@@ -30,7 +31,7 @@ int main()
  while((b-a)>delta_x){
  k++;
  x = (a+b)/2.;
-  if(funkca*exp(-x)>0) //pie a=0 fuknca=0 -> reizinājums ir precīzi 0 visu laiku -> b ir 0
+  if(funkca*exp(-x)>0)
    a = x;
   else
    b = x;

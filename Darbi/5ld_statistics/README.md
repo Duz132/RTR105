@@ -1,7 +1,7 @@
 # Laboratory work Nr.5. - Statictics - atskaite
 
 ## Teorija
-Theory  
+  Izmantojot zināšanas un dažādus paņēmienus, atrast simbolu rindas maksimumu, minimumu, mediānu, modu, vīdēju arītmetisko un uzrakstīt rindu alfabeta secībā.
 
 ### Kods
 ```
@@ -89,25 +89,27 @@ printf("Rindas vidēja vērtība - %d\n",avg/strlen(s));
 printf("Rindas mediāna - %d\n",med);
 }
 ```
-Comments about code  
+Kodas daļam ir savi nosaukumi (begin, end), lai kods būtu vieglāk apskatāms.
+Visgrūtākais bija atrast modu, tāpēc pirmkārt, atrodam visus simbolu atkārtojumus pirmo reizi (m), pēc tam pirmo burtu, kuru mēs salīdzinājam ar citām, ierakstam stringā moda un fiksējam cik reizes viņa atkārtojas (SimbMax), lai pēc tam burti, kuri atkārtosies, bet mazāk reizes, nerakstīt stringā. Arī ir daļa, kura ieraksta burtu, ja viņa atkārtojas kā iepriekšēja(m=SimbMax), bet es pamaniju tādu lietu, ka šajā daļā, ja rindā modas nav, tad visi simboli ierakstīsies stringā, tāpēc ir daļa "check", kura atbilst par simbolu vienādību modas stringā un galvenā stringā(=> ja viņi ir vienādi, tad modas nav). 
 
-### Reuzltāts
+### Rezultāts
 ```
 Cien. liet., ievadi lūdzu simbolu rindu!
-aaabbcd
-Jūsu simboli - aaabbcd
-Jūsu rinda alf sēcībā burti - aaabbcd
+abcaabbA
+Jūsu simboli - abcaabbA
+Jūsu rinda alf sēcībā burti - Aaaabbbc
 Jūsu rinda alf secībā burtu ASCII kodi - 
-97 97 97 98 98 99 100 
-Rindas moda - 97 
-Rindas min - 97
-Ridnas max - 100
-Rindas vidēja vērtība - 98
-Rindas mediāna - 98
+65 97 97 97 98 98 98 99 
+Rindas moda - 97 98 
+Rindas min - 65
+Ridnas max - 99
+Rindas vidēja vērtība - 93
+Rindas mediāna - 97
+
 
 ```
 
 ### Analīze
-Comments about results  
-
+  
+Rezultātā simbolu rinda bija uzrakstīta alfabeta sēcībā un izanalīzēta.
 

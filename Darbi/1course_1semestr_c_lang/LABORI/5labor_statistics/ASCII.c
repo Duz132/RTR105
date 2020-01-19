@@ -2,54 +2,97 @@
 #include<string.h>
 
 void main(){
-char s[100],temp,prov, max = 'A', min = 'z';
-int i, j, kolvo=0, garums=0, avg=0, position=0;
+char s[100], moda[10], temp;
+int i, j, p=0, m, SimbMax=0, check=1, med=0, max=65, min=122, avg=0;//'A' = 65, 'z' = 122
 
 printf("Cien. liet., ievadi lūdzu simbolu rindu!\n");
 scanf("%s",&s);
-printf("Tavi simboli - %s\n",s);
+printf("Jūsu simboli - %s\n",s);
 
 //ALF SEC BEGIN
-for(i=0; i<strlen(s)-1; i++) {
- for(j=i+1; j<strlen(s); j++) {
-  if(s[i]>s[j]) {
+for(i=0; i<strlen(s)-1; i++)
+{
+ for(j=i+1; j<strlen(s); j++)
+ {
+  if(s[i]>s[j])
+  {
    temp = s[i];
    s[i] = s[j];
    s[j] = temp;
   }
  }
 }
-
-printf("Sorted string - %s\n",s);
+printf("Jūsu rinda alf sēcībā burti - %s\n",s);
+printf("Jūsu rinda alf secībā burtu ASCII kodi - \n");
+for(i=0; s[i] != '\0' ; i++)
+{
+ printf("%d ",s[i]);
+}
 //ALF SEC END
 //MIN MAX AVERAGE BEGIN
-for (i=0;i<n;i++)
+for (i=0;i<strlen(s);i++)
 {
  if(s[i]>max) {max = s[i];}
  if(s[i]<min) {min = s[i];}
  avg=avg+s[i];
 }
-
-printf("Teikuma min - %c\n",min);
-printf("Teikuma max - %c\n",max);
-printf("Teikuma vid - %d\n",avg);
-//printf("Teikuma med - %c\n",s[garums/2]);
-//MIN MAX END
-//MODAS TEMP
-//for (i=0;i<strlen(s);i++)
-//{
-// temp=s[i];
-// for (n=0;n<strlen(s);n++)
-// {
-//  if(s[n]==temp)
-//   kolvo++;
-// }
-// if(kolvo>2 && temp != prov)
-// {
-//  printf("Temo moda - %c\n",temp);
-//  prov=temp;
-// }
-//kolvo=0;
-//}
-//MODAS TEMP
+//MIN MAX AVERAGE END
+//MED BEGIN
+if(strlen(s)%2 == 1) {med = s[strlen(s)/2];}
+if(strlen(s)%2 == 0) {med = (s[strlen(s)/2] + s[strlen(s)/2-1])/2;}
+//MED END
+//MODA BEGIN
+/*for(i=0; i<strlen(s); i++)
+{
+ for(j=0; j<strlen(s); j++)
+ {
+  if(s[j] == s[i] && j != i)
+  {
+   if(p==0) {moda[p] = s[j]; p++;}
+   else if(moda[p-1] != s[j])
+   {
+     moda[p]=s[j];
+     p++;
+   }
+  }
+ }
+}*/
+for (i=0; i<strlen(s)-1; i++)
+{
+ m=0;
+ for (j=i+1; j<strlen(s); j++)
+ {
+  if (s[i] == s[j]) {
+  m++;
+  }
+ }
+ if (m>SimbMax && m != 0) {
+  p=0;
+  SimbMax=m;
+  moda[p]=s[i];
+  p++;
+ }
+ else if (m == SimbMax) {
+  moda[p]=s[i];
+  p++;
+ }
+}
+for (i=0; i<strlen(s); i++)
+{
+ if (s[i] == moda[i])
+  check++;
+}
+if (check == strlen(s))
+ printf("\nRindā modas nav!");
+else
+{
+ printf("\nRindas moda - ");
+ for (i=0; i<p; i++)
+  printf("%d ",moda[i]);
+}
+//MODA END
+printf("\nRindas min - %d\n",min);
+printf("Ridnas max - %d\n",max);
+printf("Rindas vidēja vērtība - %d\n",avg/strlen(s));
+printf("Rindas mediāna - %d\n",med);
 }

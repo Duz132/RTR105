@@ -1,24 +1,31 @@
-# Laboratory work Nr.1. - Taylor series - report
+# Laboratory work Nr.5. - Statictics - atskaite
 
-## Theory
+## Teorija
 Theory  
 
-### Code
+### Kods
 ```
-#include<stdio.h>
 
-void main(){printf("Hello, World!\n");}
 ```
 Comments about code  
 
-### Result
+### Reuzltāts
 ```
-Hello, World!
+Cien. liet., ievadi lūdzu simbolu rindu!
+aaabbcd
+Jūsu simboli - aaabbcd
+Jūsu rinda alf sēcībā burti - aaabbcd
+Jūsu rinda alf secībā burtu ASCII kodi - 
+97 97 97 98 98 99 100 
+Rindas moda - 97 
+Rindas min - 97
+Ridnas max - 100
+Rindas vidēja vērtība - 98
+Rindas mediāna - 98
+
 ```
 
-### Analysis
+### Analīze
 Comments about results  
 
-### Figures
-![Bildes apraksts](https://raw.githubusercontent.com/tatusmatrix/RTR223f/master/2018_2019/images/CW1_1_1_EN.PNG)
 

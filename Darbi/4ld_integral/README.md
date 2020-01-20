@@ -1,4 +1,4 @@
-# Laboratory work Nr.1. - Integral - atskaite
+# Laboratorijas darbs Nr.4. - Integral - atskaite
 
 ## Teorija
 Izmantojot taisnstūru, trapeču un Simpsona metodes, vajadzēja atrast manas funkcijas y=exp(-x) integrāla vērtības (laukuma vērtību starp funkcijas grafiku un OX asi noteiktā intervālā). Arī es izmantoju dažus tīmekļalapus, lai atrastu teoriju par metodēm: http://www.mathcs.emory.edu/~cheung/Courses/170/Syllabus/07/rectangle-method.html; https://www.geeksforgeeks.org/trapezoidal-rule-for-approximate-value-of-definite-integral/; https://www.codewithc.com/c-program-for-simpson-1-3-rule/

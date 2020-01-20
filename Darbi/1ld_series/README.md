@@ -88,7 +88,7 @@ R=   --------------
 ```
 
 ### Analīze
-Pēc dažām saskaitīšanas solīm, beigās trešajā kolonnā mēs redzam funkcijas vērtību punktā 2.05.
+Beigās mēs redzam, ka aprēķināta funkcijas vērtība izmantojot Teilora rindas sakrīt ar funkcijas vērtību.
 
 ### Manas funkcijas grafiks
 ![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)

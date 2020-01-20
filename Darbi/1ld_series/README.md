@@ -2,23 +2,6 @@
 
 ## Teorija
 Izmantojot manas funkcijas exp(-x) Teilora rindas un rekurences izteiksmes, es uzrakstīju programmu, kura skaita funkcijas vērtību, kuru ievada lietotājs.
-Teilora rindas izteiksme:
-            1000
-            -----
-            \               k     k
-              \         (-1)  *  x
-f(x) =       |      --------------------
-              /             k!
-            /
-            ------
-             k=0
-Rekurences izteiksme:
-            k
-        (-1)  *  x
-R = -------------------
-                   k-1
-         k  *  (-1)
-Izteiksmes ir slikti redzamas, tāpēc zemāk ir bilde ar izteiksmēm.
 
 ### Kods
 ```
@@ -53,25 +36,29 @@ Skaitam "a" izmantojot Teilora rindas izteiksmi un pēc tam ciklā izmantojam re
 ### Rezultāts
 ```
 Cien. liet., lūdzu ievadi x (piem. - 2.05) - 2.05
-y=exp(-2.05000000)=0.12873490
-2.05000000	0.12873490
-x		a		S
-2.05000000	1.00000000	1.00000000
-2.05000000	-2.05000000	-1.05000000
-2.05000000	2.10125000	1.05125000
-2.05000000	-1.43585417	-0.38460417
-2.05000000	0.73587526	0.35127109
-2.05000000	-0.30170886	0.04956224
-2.05000000	0.10308386	0.15264610
-2.05000000	-0.03018884	0.12245725
-2.05000000	0.00773589	0.13019314
-2.05000000	-0.00176206	0.12843108
-2.05000000	0.00036122	0.12879230
-2.05000000	-0.00006732	0.12872498
-2.05000000	0.00001150	0.12873648
-2.05000000	-0.00000181	0.12873467
-2.05000000	0.00000027	0.12873494
-2.05000000	-0.00000004	0.12873490
+y=exp(-2.05)=0.12873490
+a0 = 1.000000e+00	S0 = 1.00000000
+a205 = -2.964394e-323	S205 = 0.12873490
+a499 = -0.000000e+00	S499 = 0.12873490
+a500 = 0.000000e+00	S500 = 0.12873490
+a999 = -0.000000e+00	S999 = 0.12873490
+a1000 = 0.000000e+00	S1000 = 0.12873490
+
+     1000
+     ----
+     \           k   k
+      \      (-1) * x
+f(x)= |    --------------
+      /         k!
+     /
+     ----
+      k=0
+
+           k
+       (-1) * x
+R=   --------------
+              k-1
+       k * (-1)
 
 ```
 
@@ -80,4 +67,4 @@ Pēc dažām saskaitīšanas solīm, beigās trešajā kolonnā mēs redzam funk
 
 ### Manas funkcijas grafiks
 ![Funkcijas grafiks](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/exp(-x)_grafiks.png)
-![Teilora un rekurences izteiksmes](https://github.com/Duz132/RTR105/blob/master/Darbi/1course_1semestr_c_lang/LABORI/Teilora_Rekurences_Izt.png)
+

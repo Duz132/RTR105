@@ -26,7 +26,7 @@ int main()
   k++;
   a = a * (pow(-1,k) * x) / (k * pow(-1,k-1));
   S += a;
-//  printf("a%d = %e\tS%d = %e\n",k,a,k,S);
+//  printf("a%d = %e\tS%d = %e\n",k,a,k,S); //Pēdējas 'a' vērtības pārbaude
   if(k==205)
    printf("a205 = %e\tS205 = %.8f\n",a,S);
   if(k==499)
@@ -56,7 +56,7 @@ int main()
  printf("       k * (-1)\n");
 }
 ```
-Skaitam "a" izmantojot Teilora rindas izteiksmi un pēc tam ciklā izmantojam rekurences izteiksmi.
+Skaitam "a" izmantojot Teilora rindas izteiksmi un pēc tam ciklā izmantojam rekurences izteiksmi. Pēc pēdējas 'a' vērtības testa, es secināju, ka pēdēja 'a' vērtība, kad 'a' nav 0 ir 205!
 
 ### Rezultāts
 ```

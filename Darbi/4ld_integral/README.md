@@ -87,4 +87,6 @@ Integrāla vērtība, izmantojot Simpsona metodi: 0.3495632410
 Rezultātā programma aprēķināja integrāla vērtības ar dažādām metodēm. Salīdzinot ar atbildi, kuru es dabūju ar Wol
 framalpha palīdzību(bildes), es varu pateikt, ka vislabākā metode ir Simpsona metode.
 ### Bildes
-![Wolframalpha](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check.png)
+
+![Wolframalpha_Nr2](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check_2.png)
+![Grafiks_ar_iekrāsotu_intervālu](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_exp(-x)_w_paint.png)

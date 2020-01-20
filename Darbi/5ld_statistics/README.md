@@ -1,4 +1,4 @@
-# Laboratory work Nr.5. - Statictics - atskaite
+# Laboratorijas darbs Nr.5. - Statictics - atskaite
 
 ## Teorija
   Izmantojot zināšanas un dažādus paņēmienus, atrast simbolu rindas maksimumu, minimumu, mediānu, modu, vīdēju arītmetisko un uzrakstīt rindu alfabeta secībā.

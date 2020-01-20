@@ -89,5 +89,4 @@ Rezultātā programma aprēķināja integrāla vērtības ar dažādām metodēm
 framalpha palīdzību(bildes), es varu pateikt, ka vislabākā metode ir Simpsona metode.
 ### Bildes
 ![Wolframalpha](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check.png)
-![Wolframalpha](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check_2.png)
 ![Grafiks ar iekrāsotu intervālu](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_exp(-x)_w_paint.png)

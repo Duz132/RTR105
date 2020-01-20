@@ -83,10 +83,9 @@ Integrāla vērtība, izmantojot trapeču metodi: 0.3495559096
 Integrāla vērtība, izmantojot Simpsona metodi: 0.3495632410
 
 ```
-
 ### Analīze
 Rezultātā programma aprēķināja integrāla vērtības ar dažādām metodēm. Salīdzinot ar atbildi, kuru es dabūju ar Wol
 framalpha palīdzību(bildes), es varu pateikt, ka vislabākā metode ir Simpsona metode.
 ### Bildes
-![](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check.png)
-![](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_exp(-x)_w_paint.png)
+![Wolframalpha](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_integral_check.png)
+![Grafiks_ar_iekrāsotu_intervālu](https://github.com/Duz132/RTR105/tree/master/Darbi/1course_1semestr_c_lang/LABORI/4ld_exp(-x)_w_paint.png)

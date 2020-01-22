@@ -30,7 +30,7 @@ void main(){
 }
 
 ```
-Lietotājs ievada robežas, kur vajag skaitīt funkcijas un funkcijas atvasinājuma vērtības, un precizitāti. Pēc tam visus datus ieraksta failā un ar Gnuplot palīdzību mēs zīmējam funkcijas grafikus.
+Lietotājs ievada robežas, kur vajag skaitīt funkcijas un funkcijas atvasinājuma vērtības, un precizitāti. Pēc tam visus datus ieraksta failā un ar Gnuplot palīdzību mēs zīmējam funkcijas grafikus. Otrais atvasinājums manai funkcijai ir exp(-x), tāpēc es to nolemu nerakstīt
 
 ### Rezultāts
 ```

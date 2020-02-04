@@ -12,11 +12,12 @@ void main(){
  printf("Precizitātes piemērs - 0.01 vai 0.001\n");
  printf("PIEMĒRS a=0, b=6.283185, precizitāte=0.0001!\n");
  scanf("%f %f %f",&a,&b,&delta_x);
- printf("TEST a - %f, b - %f, delta_x - %f\n",a,b, delta_x);
+// printf("TEST a - %f, b - %f, delta_x - %f\n",a,b, delta_x);
  fprintf(file,"\tx\t\te^-x\t\t(e^-x)\'\n");
  x = a;
  while(x<b){
-  fprintf(file,"%.10f\t%.10f\t%.10f\n",x,exp(-x),/*-exp(-x));*/(-exp(-x+delta_x)+exp(-x))/delta_x);
+  fprintf(file,"%.f\t%.10f\t%.10f\n",x,exp(-x),/*-exp(-x));*/(-exp(-x+delta_x)+exp(-x))/delta_x);
   x += delta_x;
  }
+fclose(file);
 }

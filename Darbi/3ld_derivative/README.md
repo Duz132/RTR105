@@ -27,6 +27,7 @@ void main(){
   fprintf(file,"%10.10f\t%10.10f\t%10.10f\n",x,exp(-x),/*-exp(-x));*/(-exp(-x+delta_x)+exp(-x))/delta_x);
   x += delta_x;
  }
+fclose(file);
 }
 
 ```
